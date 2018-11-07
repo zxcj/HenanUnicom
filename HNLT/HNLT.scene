@@ -1,0 +1,211 @@
+scene
+{
+    path = HNLT.gpb
+
+    showDefaultLight = false
+    ambientColor = 1.0, 1.0, 1.0
+
+    modelSize = 70
+    modelScale = 1.0
+
+    node Blue_Cloud_Mod_01
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node Blue_Cloud_Mod_02
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node Blue_Cloud_Mod_03
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node Blue_Cloud_Mod_04
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node Blue_Cloud_Mod_05
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node Blue_Cloud_Mod_06
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node Blue_Cloud_Mod_07
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node Blue_Cloud_Mod_08
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node Blue_Cloud_Mod_09
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node Blue_Cloud_Mod_10
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node Blue_Cloud_Mod_11
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node GoldCloud_Mod_01
+    {
+    }
+    node GoldCloud_Mod_02
+    {
+    }
+    node GoldCloud_Mod_03
+    {
+    }
+    node GoldCloud_Mod_04
+    {
+    }
+    node GoldCloud_Mod_05
+    {
+    }
+    node GoldCloud_Mod_06
+    {
+    }
+    node GoldCloud_Mod_07
+    {
+    }
+    node Group_UI1
+    {
+        //enabled=false
+        static=true
+    }
+    node Group_UI2
+    {
+        enabled=false
+        static=true
+    }
+    node Group_UI3
+    {
+        enabled=false
+        static=true
+    }
+    node Group_heibian
+    {
+        //enabled=false
+        static=true
+    }
+    node UI1_Guide
+    {
+        enabled=false
+    }
+    node UI2_BG
+    {
+    }
+    node UI2_Close
+    {
+    }
+    node UI3_BG
+    {
+    }
+    node UI3_Click
+    {
+    }
+    node UI3_Gift
+    {
+    }
+    node UI_Cloud1
+    {
+    }
+    node UI_Cloud2
+    {
+    }
+    node UI_Cloud3
+    {
+    }
+    node Video
+    {
+        static=true
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node White_Cloud_Mod_01
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node White_Cloud_Mod_02
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node White_Cloud_Mod_03
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node White_Cloud_Mod_04
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node White_Cloud_Mod_05
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node White_Cloud_Mod_06
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node White_Cloud_Mod_07
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node White_Cloud_Mod_08
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node White_Cloud_Mod_09
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node White_Cloud_Mod_10
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node White_Cloud_Mod_11
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node heibian1
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node heibian2
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+        translate = 0,0,45
+    }
+    node group_Cloud
+    {
+        enabled=false
+    }
+}
