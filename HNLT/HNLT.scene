@@ -63,6 +63,31 @@ scene
         oneBoundMin=0,0,0
         oneBoundMax=0.1,0.1,0.1
     }
+    node Blue_Cloud_Mod_12
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node Blue_Cloud_Mod_13
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node Blue_Cloud_Mod_14
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node Blue_Cloud_Mod_15
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node Blue_Cloud_Mod_16
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
     node GoldCloud_Mod_01
     {
     }
@@ -86,7 +111,6 @@ scene
     }
     node Group_UI1
     {
-        //enabled=false
         static=true
     }
     node Group_UI2
@@ -101,7 +125,6 @@ scene
     }
     node Group_heibian
     {
-        //enabled=false
         static=true
     }
     node UI1_Guide
@@ -122,6 +145,11 @@ scene
     }
     node UI3_Gift
     {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node UI3_receive
+    {
     }
     node UI_Cloud1
     {
@@ -130,6 +158,9 @@ scene
     {
     }
     node UI_Cloud3
+    {
+    }
+    node UI_logo
     {
     }
     node Video
@@ -193,6 +224,55 @@ scene
         oneBoundMin=0,0,0
         oneBoundMax=0.1,0.1,0.1
     }
+    node White_Cloud_Mod_12
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node White_Cloud_Mod_13
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node White_Cloud_Mod_14
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node White_Cloud_Mod_15
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node White_Cloud_Mod_16
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node White_Cloud_Mod_17
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node White_Cloud_Mod_18
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node White_Cloud_Mod_19
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node White_Cloud_Mod_20
+    {
+        oneBoundMin=0,0,0
+        oneBoundMax=0.1,0.1,0.1
+    }
+    node group_Mod
+    {
+        enabled=false
+    }
     node heibian1
     {
         oneBoundMin=0,0,0
@@ -204,8 +284,5 @@ scene
         oneBoundMax=0.1,0.1,0.1
         translate = 0,0,45
     }
-    node group_Cloud
-    {
-        enabled=false
-    }
+
 }

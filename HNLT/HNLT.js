@@ -1,25 +1,23 @@
 AR.log("HNLT AR v1.0");
 var ClickedCount=0;
 AR.onload = function() {
-	var shareExtra = {};
-        shareExtra.title = '我是分享标题';
-        shareExtra.content = '我是分享内容';
-        shareExtra.thumbnail = 'share.png';
-        
-        AR.shareApp(shareExtra, function(result) {
-            AR.toast('status: ' + result.status + ', channel: ' + result.channel);
-        });
-	return;
     antHelper.playVideo(true,"Video","bundle/video_liantong.mp4",1);
     AR.setTimeout(function(){
 		AR.set_visible("Video",false);
-        AR.set_visible("UI1_Guide",true);
+		AR.set_visible("UI1_Guide",true);
+		AR.set_visible("group_Mod",true);
+		
         AR.setTimeout(function(){
 			AR.set_visible("group_Cloud",true);
             AR.set_visible("UI1_Guide",false);
-            AR.set_visible("Group_UI1",false);
+			//AR.set_visible("Group_UI1",false);
+			
         }, 4000);
-    },13000);
+	},13000);
+	AR.audio_play("bundle/bgm.mp3");	
+	AR.setInterval(function(){
+		AR.audio_play("bundle/bgm.mp3");
+	},9000);
 
 };
 
@@ -31,8 +29,10 @@ AR.onend = function(clipId) {
 
 AR.onclick = function(nodeId, x, y) {
     if(nodeId.indexOf("GoldCloud")>=0){
+	AR.audio_play("bundle/click.mp3");	
+
 		var  index = nodeId.split("0")[1];
-		AR.set_texture("UI2_BG","bundle/windows/pop_"+index+".png");
+		AR.set_texture("UI2_BG","bundle/windows/"+index+".png");
 		AR.setTimeout(function(){
 			AR.set_visible("Group_UI2",true);
 			AR.set_visible("UI2_BG",true);
@@ -48,16 +48,16 @@ AR.onclick = function(nodeId, x, y) {
 		AR.set_visible("UI2_BG",false);
 		AR.set_visible("UI2_Close",false);  
         if(ClickedCount>=3){
-            AR.set_visible("Group_UI3",true); 
+			AR.set_visible("Group_UI3",true); 
+			AR.play("Group_UI3#Default",0)
         }
     }
 
-    if(nodeId=="UI3_Gift"){
+    if(nodeId=="UI3_receive"){
         antHelper.getTicket("gift");
     }
 
     if(nodeId=="UI3_Click"){
-        AR.log("DO");
         antHelper.getTicket("redenvelope");            
     }
 };

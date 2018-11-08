@@ -129,27 +129,11 @@ material Material__15 : textured
     }
 }
 
-material Material__17 : textured
+material Material__27 : textured
 {
     sampler u_diffuseTexture
     {
         path = HNLT.fbm/pop_end.png
-    }
-
-    technique
-    {
-        pass 
-        {
-            defines = DIRECTIONAL_LIGHT_COUNT 1
-        }
-    }
-}
-
-material Material__18 : textured
-{
-    sampler u_diffuseTexture
-    {
-        path = HNLT.fbm/btn_lingqu1.png
     }
 
     technique
@@ -198,6 +182,54 @@ material Material__21 : textured
     sampler u_diffuseTexture
     {
         path = HNLT.fbm/video_liantong2.png
+    }
+
+    technique
+    {
+        pass 
+        {
+            defines = DIRECTIONAL_LIGHT_COUNT 1
+        }
+    }
+}
+
+material Material__23 : textured
+{
+    sampler u_diffuseTexture
+    {
+        path = HNLT.fbm/logo.png
+    }
+
+    technique
+    {
+        pass 
+        {
+            defines = DIRECTIONAL_LIGHT_COUNT 1
+        }
+    }
+}
+
+material Material__25 : textured
+{
+    sampler u_diffuseTexture
+    {
+        path = HNLT.fbm/btn_lingqu1.1.png
+    }
+
+    technique
+    {
+        pass 
+        {
+            defines = DIRECTIONAL_LIGHT_COUNT 1
+        }
+    }
+}
+
+material Material__26 : textured
+{
+    sampler u_diffuseTexture
+    {
+        path = HNLT.fbm/btn_lingqu1.png
     }
 
     technique
@@ -305,18 +337,3 @@ material Material__9 : textured
     }
 }
 
-material lambert2 : textured
-{
-    sampler u_diffuseTexture
-    {
-        path = HNLT.fbm/pop_end.png
-    }
-
-    technique
-    {
-        pass 
-        {
-            defines = DIRECTIONAL_LIGHT_COUNT 1
-        }
-    }
-}
